@@ -80,9 +80,7 @@
                     <artifactId>maven-javadoc-plugin</artifactId>
                     <version>3.0.1</version>
                     <configuration>
-                        <detectLinks>false</detectLinks>
                         <detectOfflineLinks>false</detectOfflineLinks>
-                        <detectJavaApiLink>true</detectJavaApiLink>
                         <failOnError>false</failOnError>
                     </configuration>
                     <executions>
