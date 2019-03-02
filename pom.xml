@@ -82,6 +82,7 @@
                     <configuration>
                         <detectLinks>false</detectLinks>
                         <detectOfflineLinks>false</detectOfflineLinks>
+                        <detectJavaApiLink>true</detectJavaApiLink>
                         <failOnError>false</failOnError>
                     </configuration>
                     <executions>
@@ -205,7 +206,7 @@
             <plugin>
                 <groupId>org.jacoco</groupId>
                 <artifactId>jacoco-maven-plugin</artifactId>
-                <version>0.7.9</version>
+                <version>0.8.3</version>
                 <executions>
                     <execution>
                         <id>prepare-agent</id>
