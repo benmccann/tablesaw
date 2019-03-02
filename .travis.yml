@@ -1,7 +1,5 @@
 dist: xenial
 language: java
-jdk:
-- oraclejdk9
 
 before_install:
   - "export DISPLAY=:99.0"
